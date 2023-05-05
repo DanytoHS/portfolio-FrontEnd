@@ -1,0 +1,22 @@
+.row{
+    background-image: url(../../../assets/tetris-grid.png);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  
+  h1{
+    margin-left: 5%;
+    color: bisque;
+  }
+  h2{
+    color: bisque;
+  }
+  h3{
+    color: bisque;
+  }
+  h4{
+    color: bisque;
+  }
+  p{
+    color: bisque;
+  }

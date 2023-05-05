@@ -1,10 +1,15 @@
  #imagen-selfie {
     display: block !important;
     width: 300px !important;
+    z-index: 1;
   }
-  .row{
-    background-color: rgb(26, 25, 25);
-  }
+
+.row{
+  background-image: url(../../../assets/tetris-grid.png);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+  
   img{
     border-radius: 50% !important;
     margin-top: -200px !important;
