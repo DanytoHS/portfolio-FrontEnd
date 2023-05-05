@@ -1,0 +1,6 @@
+.row{
+    background-image: url(../../../assets/06bedfb3ed400da352159a4e4807645d.gif);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 500px;
+}

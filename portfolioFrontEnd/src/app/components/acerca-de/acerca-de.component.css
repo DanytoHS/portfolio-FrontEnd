@@ -1,0 +1,32 @@
+ #imagen-selfie {
+    display: block !important;
+    width: 300px !important;
+  }
+  .row{
+    background-color: rgb(26, 25, 25);
+  }
+  img{
+    border-radius: 50% !important;
+    margin-top: -200px !important;
+    margin-left: 50px !important;
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+  }
+  h1{
+    margin-top: 20px;
+    margin-left: 5%;
+    color: bisque;
+  }
+  h2{
+    margin-top: 20px;
+    margin-left: 5%;
+    color: bisque;
+  }
+  h4{
+    margin-left: 5%;
+    color: bisque;
+  }
+  p{
+    margin-left: 5%;
+    color: bisque;
+  }
+  
