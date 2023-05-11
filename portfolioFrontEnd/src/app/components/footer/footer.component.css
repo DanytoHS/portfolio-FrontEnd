@@ -1,0 +1,9 @@
+.row{
+    float: flex;
+    text-align: center;
+    color: white;
+    font-size: small;
+}
+html, body{
+    overflow-x: hidden;
+}

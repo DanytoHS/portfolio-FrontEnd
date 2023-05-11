@@ -1,0 +1,21 @@
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+.proyecto-gnc{
+    text-align: center !important;
+    margin-top: 50px;
+}
+.proyecto-ap{
+    text-align: center !important;
+    margin-top: 50px;
+}
+.proyectos{
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(255, 0, 119);
+    background-color:  rgba(0, 0, 0, 0.7);
+    border-radius: 3px;
+}
+    
+

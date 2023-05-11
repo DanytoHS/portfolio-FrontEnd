@@ -2,14 +2,9 @@
     display: block !important;
     width: 300px !important;
     z-index: 1;
+
   }
 
-.row{
-  background-image: url(../../../assets/tetris-grid.png);
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-}
-  
   img{
     border-radius: 50% !important;
     margin-top: -200px !important;
@@ -19,19 +14,19 @@
   h1{
     margin-top: 20px;
     margin-left: 5%;
-    color: bisque;
+    color: rgb(66, 186, 255);
   }
   h2{
     margin-top: 20px;
     margin-left: 5%;
-    color: bisque;
+    color: rgb(72, 249, 255);
   }
   h4{
     margin-left: 5%;
-    color: bisque;
+    color: rgb(255, 255, 255);
   }
   p{
     margin-left: 5%;
-    color: bisque;
+    color: #FDCDF9;
   }
   

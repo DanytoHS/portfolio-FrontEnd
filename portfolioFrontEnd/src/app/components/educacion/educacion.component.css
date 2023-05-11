@@ -1,39 +1,41 @@
-/* .row{
-    background-image: url(../../../assets/tetris-grid.png);
-    background-repeat: no-repeat; 
-    background-size: cover;
-  } */
-  
-  h2{
-    color: white;
-    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(159, 159, 161);
-    background-color:  rgba(255, 255, 255, 0.7);
-    border-radius: 3px;
+  .estudios{
+    margin-top: 30px;
   }
+
+ .estudios{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(255, 0, 119);
+    background-color:  rgba(0, 0, 0, 0.7);
+}
   h2{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(159, 159, 161);
-    background-color:  rgba(255, 255, 255, 0.7);
     border-radius: 3px;
   }
   h3{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(159, 159, 161);
-    background-color:  rgba(255, 255, 255, 0.7);
     border-radius: 3px;
   }
   h4{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(159, 159, 161);
-    background-color:  rgba(255, 255, 255, 0.7);
     border-radius: 3px;
   }
   p{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 1em rgb(159, 159, 161);
-    background-color:  rgba(255, 255, 255, 0.7);
     border-radius: 3px;
   }
   .estudios{
     text-align: center;
   }
+  html, body{
+    overflow-x: hidden;
+}
+a{
+  
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0);
+  color:#00E3FC;
+  font-weight: bold;
+}
