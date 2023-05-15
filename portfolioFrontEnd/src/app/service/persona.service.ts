@@ -8,7 +8,7 @@ import { persona } from '../model/persona.model';
 } )
 export class PersonaService {
 
-  URL = 'https://backendportfolio-0s2q.onrender.com/personas/';
+  URL = 'https://portfolio-backend-production-2be4.up.railway.app/personas/';
 
   constructor(private http: HttpClient) {}
 
