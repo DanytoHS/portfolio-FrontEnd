@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log-in Page</title>
+</head>
+<body>
+    <div class="box" id="frm">
+        <form #f="ngForm" (ngSubmit)="onLogin()" novalidate>
+            <h2>Log-in</h2>
+            <div class="inputBox">
+                <input type="text" id="nombreUsuario" name="nombreUsuario" [(ngModel)]="nombreUsuario" required="required"/>
+                <span>Usuario</span>
+                <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" id="password" name="password" [(ngModel)]="password" required="required" />
+                <span>Contraseña</span>
+                <i></i>
+            </div><!-- 
+            <div class="links">
+                <a href="#">Forgot Password ?</a>
+                <a href="#">Signup</a>
+            </div> -->
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

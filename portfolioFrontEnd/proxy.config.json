@@ -1,0 +1,11 @@
+{
+    "/servidor/*":{
+        "target":"https://backendportfolio-0s2q.onrender.com/personas",
+        "secure":false,
+        "pathRewrite":{
+            "^/servidor":""
+            ,
+            "changeOrigin":true
+        }
+    }
+}

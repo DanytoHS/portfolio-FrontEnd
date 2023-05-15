@@ -3,17 +3,16 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { persona } from '../model/persona.model';
 
-@Injectable({
+@Injectable( {
   providedIn: 'root'
-})
+} )
 export class PersonaService {
 
-  URL = 'http://localhost:8080/personas/';
+  URL = 'https://backendportfolio-0s2q.onrender.com/personas/';
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public getPersona(): Observable<persona>{
-    return this.http.get<persona>(this.URL+'traer/persona');
-
+    return this.http.get<persona>(this.URL+'traer/perfil');
   }
 }

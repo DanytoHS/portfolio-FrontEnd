@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "https://portfolio-danilo-bascourleguy.web.app",
+    "secure": false
+  }
+  }
